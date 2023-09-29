@@ -9,7 +9,6 @@
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -23,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Project Screenshot](./src/assets/images/project-screenshot.jpg)
 
 ## My process
 
@@ -31,6 +30,7 @@ Users should be able to:
 
 - Flexbox
 - CSS Grid
+- CSS transitions
 - Semantic HTML5 markup
 - CSS custom properties
 - Mobile-first workflow
@@ -38,7 +38,7 @@ Users should be able to:
 
 ### What I learned
 
-### Useful resources
+I had to restructure my entire html of the footer section just to get the styling right.
 
 ## Author
 

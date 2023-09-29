@@ -74,6 +74,7 @@ h2 {
 }
 
 .header {
+  margin-block-end: 5em;
   background-color: var(--clr-white);
 }
 
@@ -162,6 +163,21 @@ button {
 button:is(:hover, :focus) {
   cursor: pointer;
   opacity: 1;
+}
+
+.how-it-works {
+  position: relative;
+}
+
+.how-it-works::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  inset-block-start: -12%;
+  display: block;
+  background: url(../assets/images/bg-curve-mobile.svg) no-repeat;
+  background-size: cover;
+  height: 5%;
 }
 
 .how-it-works__message-container {
@@ -353,6 +369,14 @@ button:is(:hover, :focus) {
 
   .hero__btn {
     width: 33%;
+  }
+
+  .how-it-works::before {
+    background: url(../assets/images/bg-curve-desktop.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30%;
+    inset-block-start: -18%;
   }
 
   .hero__message-container,
